@@ -116,7 +116,6 @@ npm run lint
 [echarts]: http://echarts.apache.org
 [echarts-ico]:https://img.shields.io/badge/echarts-v5.3.2-brightgreen
 
-
 ---
 
 ## 前后端功能简介
@@ -157,7 +156,7 @@ npm run lint
 ## 体验Demo地址&仓库地址
 
 - [Todoadmin-pro 演示地址（vue3.2.x 支持 PC、平板、手机）](https://pro.todoadmin.com)
-- [Github 仓库地址(暂未开放)]()
+- [Github 仓库地址(暂未开放)](https://github.com/todoadmin-com/vue3-elementPlus-pinia.git)
 - [Gitee 码云仓库地址(暂未开放)]()
 
 
@@ -175,18 +174,18 @@ npm run lint
     </tr>
 </table>
 
-<!--
-## 克隆Todoadmin-vue3.x 项目 [点击访问仓库](https://github.com)
+
+## 克隆Todoadmin-vue3 项目 [点击访问仓库](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
 
 ```bash
 # 克隆项目
-git clone -b  https://github.com/
+git clone -b  https://github.com/todoadmin-com/vue3-elementPlus-pinia.git
 # 安装依赖
 npm i
 # 本地开发 启动项目
 npm run serve
 ```
--->
+
 
 ## 优势&注意事项
 
