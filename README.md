@@ -16,7 +16,7 @@
     <a href="https://github.com/npm/npm">
         <img src="https://img.shields.io/badge/npm-7.x-blue" alt="npm">
     </a>
-    <a href="https://github.com/npm/npm">
+    <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/license-MIT-blue" alt="license-mit">
     </a>
 </p>
@@ -156,8 +156,8 @@ npm run lint
 ## 体验Demo地址&仓库地址
 
 - [Todoadmin-pro 演示地址（vue3.2.x 支持 PC、平板、手机）](https://pro.todoadmin.com)
-- [Github 仓库地址(暂未开放)](https://github.com/todoadmin-com/vue3-elementPlus-pinia.git)
-- [Gitee 码云仓库地址(暂未开放)]()
+- [Github 地址](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+- [Gitee 码云地址](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
 <p>用户名：guest</p><p>密码：123456</p>
 
 ## 打赏&联系
@@ -324,6 +324,6 @@ npm run serve
 
 ## 商用注意事项
 
-此项目可免费用于商业用途，请遵守 [MIT](https://github.com/rcyj-FED/vue3-composition-admin/blob/main/LICENSE)  协议并保留作者技术支持声明。
+此项目可免费用于商业用途，请遵守 [MIT](https://opensource.org/licenses/MIT)  协议并保留作者技术支持声明。
 
 Copyright (c) 2022-present, Todoadmin.com
