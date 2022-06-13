@@ -1,4 +1,4 @@
-简体中文 | [English](./README.en.md)
+简体中文 |
 
 <h1>TodoAdmin<font color="#666" size=4>-vue3</font></h1>
 
@@ -115,7 +115,6 @@ npm run lint
 
 [echarts]: http://echarts.apache.org
 [echarts-ico]:https://img.shields.io/badge/echarts-v5.3.2-brightgreen
-
 
 
 ---
