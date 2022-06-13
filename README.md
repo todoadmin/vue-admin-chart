@@ -158,7 +158,7 @@ npm run lint
 - [Todoadmin-pro 演示地址（vue3.2.x 支持 PC、平板、手机）](https://pro.todoadmin.com)
 - [Github 仓库地址(暂未开放)](https://github.com/todoadmin-com/vue3-elementPlus-pinia.git)
 - [Gitee 码云仓库地址(暂未开放)]()
-
+<p>用户名：guest</p><p>密码：123456</p>
 
 ## 打赏&联系
 
