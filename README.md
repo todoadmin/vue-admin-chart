@@ -175,7 +175,7 @@ npm run lint
 </table>
 
 
-## 克隆Todoadmin-vue3 项目 [点击访问仓库](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+## 克隆Todoadmin-vue3 项目 [点击访问Github仓库](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
 
 ```bash
 # 克隆项目
@@ -185,6 +185,19 @@ npm i
 # 本地开发 启动项目
 npm run serve
 ```
+
+
+## 克隆Todoadmin-vue3 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+
+```bash
+# 克隆项目
+git clone -b  https://gitee.com/todoadmin-com/vue3-element-plus-pinia.git
+# 安装依赖
+npm i
+# 本地开发 启动项目
+npm run serve
+```
+
 
 
 ## 优势&注意事项
