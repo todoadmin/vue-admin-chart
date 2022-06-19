@@ -1,4 +1,4 @@
-简体中文 | [English](./README.en.md) 
+[简体中文](./README.md) | English
 
 <h1>TodoAdmin<font color="#666" size=4>-vue3</font></h1>
 
@@ -7,7 +7,7 @@
     <img width="180" src="https://pro.todoadmin.com/logo.png?1" alt="logo">
   </a>
 </p>
-<p>一阳动、万物生！愿美好不期而遇、愿幸福如约而至、愿疫情早日消散、一起奔赴更好的未来、不辜负你我所有的努力。</p>
+<p>Yang Qi rising, all things are born! May beauty come by chance, happiness come as promised, and the epidemic disappear as soon as possible. Let's go to a better future together and live up to all our efforts.</p>
 
 <p align="center">
     <a href="https://github.com/microsoft/TypeScript">
@@ -22,56 +22,56 @@
 </p>
 
 
-> TodoAdmin-Vue版：是一个集成管理后台端模板解决方案，项目采用TS脚本语言，基于Vue 3.2+/Vue-cli 5.0+/Vue-router 4.0+、Axios0.2.7+、Element-plus 2.2+、Pinia 2.0+、ECharts 5.3+等搭建，项目是以Composition api风格编写。
+> TodoAdmin-Vue:It is an integrated management back-end template solution. The project uses TS script language and is based onVue 3.2+/Vue-cli 5.0+/Vue-router 4.0+、Axios0.2.7+、Element-plus 2.2+、Pinia 2.0+、ECharts 5.3+,The project is composition API style.
 
 
-## 体验Demo地址
+## Demo
 
-- [Todoadmin-pro Pro专业版演示地址（vue3.2+ 支持 PC、平板、手机）](https://pro.todoadmin.com)
-- [Todoadmin-base 基本版演示地址（vue3.2+ 支持 PC、平板、手机）](https://base.todoadmin.com)
-<p>用户名：guest</p><p>密码：123456</p>
-
-
-<p>以下为Pro版本的相关介绍</p>
+- [Todoadmin-pro Pro demo](https://pro.todoadmin.com)
+- [Todoadmin-base Basic demo](https://base.todoadmin.com)
+<p>Username：guest</p><p>Password：123456</p>
 
 
-## 项目生态插件【依赖】列表
+<p>The following is a introduction of the pro version</p>
 
-| 标题名称               | 版本                                                       | 描述                                             |
+
+## Ecosystem
+
+| Project               | Status                                                       | Description                                             |
 | --------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
-| [vue]                | [![vue-ico]][vue]                               | 构建用户界面的渐进式框架                           |
-| [vue-router]          | [![vue-router-ico]][vue-router]                   | 单页应用程序路由                         |
-| [vue-cli]             | [![vue-cli-ico]][vue-cli]                         | 项目脚手架                                    |
-| [axios]          | [![axios-ico]][axios]                   | 基于promise的网络请求库 |
-| [element-plus]          | [![element-plus-ico]][element-plus]                   | 基于Vue3的组件库 |
-| [element-plus-icons]          | [![element-plus-icons-ico]][element-plus-icons]                   | 基于Vue3的组件图标库 |
-| [vue-quill]          | [![vue-quill-ico]][vue-quill]                   | 可视化在线文本编辑器 |
-| [quill-image-resize]          | [![quill-image-resize-ico]][quill-image-resize]                  | 文本编辑器图片重置尺寸 |
-| [vue-cropper]          | [![vue-cropper-ico]][vue-cropper]                  | 基于Vue3的图片裁剪 |
-| [pinia]          | [![pinia-ico]][pinia]                  | 状态管理 |
-| [vue-i18n-next]          | [![vue-i18n-next-ico]][vue-i18n-next]                  | 多国语言文字切换 |
-| [js-md5]          | [![js-md5-ico]][js-md5]                  | MD5加密 |
-| [nprogress]          | [![nprogress-ico]][nprogress]                  | 进度条加载 |
-| [echarts]          | [![echarts-ico]][echarts]                  | 多功能图表 |
+| [vue]                | [![vue-ico]][vue]                               | Progressive JS Framework                             |
+| [vue-router]          | [![vue-router-ico]][vue-router]                   | Single-page application routing                         |
+| [vue-cli]             | [![vue-cli-ico]][vue-cli]                         | Project scaffolding                                    |
+| [axios]          | [![axios-ico]][axios]                   | Promise network request Library |
+| [element-plus]          | [![element-plus-ico]][element-plus]                   | Vue3 component library |
+| [element-plus-icons]          | [![element-plus-icons-ico]][element-plus-icons]                   | Vue3 component Icon library |
+| [vue-quill]          | [![vue-quill-ico]][vue-quill]                   | Visual online text editor |
+| [quill-image-resize]          | [![quill-image-resize-ico]][quill-image-resize]                  | online text resize image |
+| [vue-cropper]          | [![vue-cropper-ico]][vue-cropper]                  | vue image cropper |
+| [pinia]          | [![pinia-ico]][pinia]                  | state management |
+| [vue-i18n-next]          | [![vue-i18n-next-ico]][vue-i18n-next]                  | Multi language |
+| [js-md5]          | [![js-md5-ico]][js-md5]                  | MD5 encryption |
+| [nprogress]          | [![nprogress-ico]][nprogress]                  | Progress bar loading |
+| [echarts]          | [![echarts-ico]][echarts]                  | echarts |
 
 
 
-## 项目安装（依赖安装）
+## Install（dependencies）
 ```
 npm install   or  yarn install
 ```
 
-### 运行开发环境
+### Run dev
 ```
 npm run serve  or  yarn serve
 ```
 
-### 生产环境打包
+### Build production
 ```
 npm run build  or  yarn build
 ```
 
-### 修复文件
+### ESLint
 ```
 npm run lint
 ```
@@ -124,53 +124,53 @@ npm run lint
 
 ---
 
-## 前后端功能简介
-<font color="#7167D6" size=5>前端</font>
-- CDN 分布式引入JS/样式/图片/Json/地图数据
-- 独家采用API远程实时数据接口和Mock本地数据双接口，可自由切换API或Mock
-- 120+高质量组件页面
-- 管理后台采用实时接口数据传输
-- 实时生成可视化数据大屏动态图表
-- 实时数据采用Websocket交互
-- 采用Composition API模式
-- 采用JWT 认证
-- 实时监控系统&服务器资源使用
-- 所有开源版本均可免费商用
-- 跨平台 PC、手机端、平板等多端兼容
-- 动态路由菜单认证和精确到用户的权限路由渲染
-- 支持mock本地模拟数据和远程模拟数据
-- 支持按钮功能级别的权限控制
-- 支持会员用户和管理员用户的角色、权限等分配
-- 支持多种主题切换以及自定义添加主题样式
-- 支持多国语言文字切换
-- 支持Pinia的状态管理模式
-- 支持自定义Vue指令
-- 支持对接第三方物流平台
-- 支持绑定第三方账号功能
-- 支持日志追溯（用户操作和管理员操作）
+## Introduction functions
+<font color="#7167D6" size=5>Web</font>
+- CDN Distributed js/ css / image / map json data
+- Adopted exclusively API remote real-time interface and mock data, and API or mock can be switched freely
+- 120+ high quality components page
+- The management real-time interface data transmission
+- Real time generation of large screen dynamic chart of visual data
+- Real-time data websocket interaction
+- Composition API models
+- JWT authentication
+- Real-time monitoring system & server resource usage
+- Commercially available free of charge
+- PC, mobile, tablet and other multi terminal compatibility
+- Dynamic routing menu authentication
+- Support mock data and remote data
+- Support button function permission control
+- Support the assignment of roles and permissions of member and administrator
+- Support multiple theme switching and adding custom theme styles
+- Support multi language text switching
+- Support Pinia state management
+- Support for custom Vue directives
+- Support docking with third-party logistics platforms
+- Support binding third-party accounts
+- Support log tracing (member and administrator operation)
 
-<font color="#D66767" size=5>后端</font>
-- 接口语言版本：Go （1.7+）
-- 接口语言版本：PHP （8.0.2 +）/Swoole （4.8+）
-- 接口语言版本：SpringBoot （2.2+）
-- 可支持多种开源关系数据库切换：MySQL、MariaDB、PostgreSQL、openGauss、TiDB
-- 可支持多种内存数据库切换：Redis、Memcached
-- 可支持关系型数据库的集群
-- 可支持内存型数据库的集群
-- 可支持静态文件（图片、视频、文档等）云存储和CDN分发
+<font color="#D66767" size=5>Restful & Websocket</font>
+- Go apis ver（1.7+）
+- PHP apis ver （8.0.2 +）/Swoole （4.8+）
+- SpringBoot apis ver （2.2+）
+- Support multiple open source relational database switching：MySQL、MariaDB、PostgreSQL、openGauss、TiDB
+- Supports multiple memory database switching：Redis、Memcached
+- Cluster supporting relational database
+- Cluster supporting memory database
+- Support cloud storage and CDN distribution of static files (images, videos, documents, ...) 
 
 
-## Demo地址&仓库地址
+## Demo & Repository
 
-- [Todoadmin-pro Pro专业版演示地址（vue3.2+ 支持 PC、平板、手机）](https://pro.todoadmin.com)
-- [Todoadmin-base 基本版演示地址（vue3.2+ 支持 PC、平板、手机）](https://base.todoadmin.com)
-- [Github 地址](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
-- [Gitee 码云地址](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
-<p>用户名：guest</p><p>密码：123456</p>
+- [Todoadmin-pro Pro demo](https://pro.todoadmin.com)
+- [Todoadmin-base Basic demo](https://base.todoadmin.com)
+- [Github repository](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+- [Gitee repository](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+<p>Username：guest</p><p>Password：123456</p>
 
-## 打赏&联系
+## Reward & contact
 
-- 请喝杯茶呗，打赏后联系 QQ 308407381
+- If you agree with the project, you can reward and contact QQ:308407381
 <table>
     <tr>
         <td>
@@ -183,59 +183,59 @@ npm run lint
 </table>
 
 
-## 克隆Todoadmin-vue3 项目 [点击访问Github仓库](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+## Clone project [Click Github repository](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
 
 ```bash
-# 克隆项目
+# Clone
 git clone -b  https://github.com/todoadmin-com/vue3-elementPlus-pinia.git
-# 安装依赖
+# install
 npm i
-# 本地开发 启动项目
+# run project
 npm run serve
 ```
 
 
-## 克隆Todoadmin-vue3 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+## Clone project [Click Gitee repository](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
 
 ```bash
-# 克隆项目
+# Clone
 git clone -b  https://gitee.com/todoadmin-com/vue3-element-plus-pinia.git
-# 安装依赖
+# install
 npm i
-# 本地开发 启动项目
+# run project
 npm run serve
 ```
 
 
 
-## 优势&注意事项
+## Advantages & considerations
 
 ```
-对比其他开源Admin后台管理框架有如下优势:
-1. 独家采用API远程实时数据接口和Mock本地数据双接口调试（可自由切换数据接口模式）
-2. 支持前后端路由菜单权限和功能按钮权限控制
-3. 采用实时接口传输数据，让你事半功倍
-4. 偏好数据、主题切换、多国语言切换等配置
-5. 支持原生css和scss 自动排序，eslint 自动修复
-6. axios 二次封装，支持多种模式和参数方式
-7. websocket 封装，支持实时数据传输方式
-8. 支持MD5/RSA加密登录
-9. 支持https数据加密传输
-10. 使用CDN分发项目样式css和js、图片，让速度飞起来
-11. 支持全屏操作
+Compared with other open source admin management, it has the following advantages:
+1. Adopted exclusively remote api real-time interface and mock data, and API or mock can be switched freely
+2. Routing menu permission and button permission control
+3. Use real-time transmit data
+4. Preference data, topic switching, multi language switching ...
+5. Native CSS and SCSS automatic sorting and eslint automatic repair
+6. Axios secondary packaging supports multiple modes and parameter modes
+7. Websocket encapsulation, supporting real-time data transmission
+8. Support md5/rsa encryption login
+9. Support HTTPS data encryption transmission
+10. Use CDN to distribute CSS, JS and image, so speed up
+11. Full screen operation
 
-使用注意事项:
-1. 项目默认使用Chrome浏览器，Vue Devtools 插件调试
-2. 项目默认使用VSCode + Eslint校验规范，需要配置vscode编辑器
-3. 项目也可以使用Goland或IntelliJ IDEA + 相关插件开发
-4. 项目使用MIT开源协议，请保留MIT开源协议即可免费商用
+Precautions for use:
+1. Project uses Chrome browser , and Vue devtools plug-in debugging
+2. Project uses the vscode + eslint verification, vscode editor needs to be configured
+3. Project can also be developed using Golan or IntelliJ idea + related plug-ins
+4. Project uses the MIT protocol. Please keep the MIT protocol for free commercial use
 
 ```
 
 
-## 后台效果图预览
+## Rendering Preview
 
-以下是截取的是 pro 版的效果图展示：
+The following is the screenshot of the pro version：
 
 <table>
     <tr>
@@ -306,34 +306,34 @@ npm run serve
 
 
 
-## 提问
+## Questions
 
-<p>如果你有任何疑问可以提出，作者会快速处理</p>
+<p>For questions and support please use the official forum or community chat. The issue list of this repo is exclusively for bug reports and feature requests.</p>
 
-## 问题提交
+## Issues
 
-<p>如果项目存在任何问题或者Bug，可以提交Issue</p>
+<p>Please make sure to read the Issue Reporting Checklist before opening an issue. Issues not conforming to the guidelines may be closed immediately.</p>
 
 
 
-## 浏览器&移动端浏览器
+## Browser & mob
 
-主流浏览器和IE 10+.
+Mainstream browsers and IE 10+.
 
 | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" style="zoom:70%" />](https://godban.github.io/browsers-support-badges/) IE/Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" style="zoom:70%"/>](https://godban.github.io/browsers-support-badges/) Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" style="zoom:70%" />](https://godban.github.io/browsers-support-badges/) Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" style="zoom:70%" />](https://godban.github.io/browsers-support-badges/) Safari |
 | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- | --------------------------------------------------------- |
 | IE10/IE11/Edge                                             | last 2 versions                                              | last 2 versions                                              | last 2 versions                                              |
 
 
-## 贡献
+## Contribution
 
-多谢每一位支持本项目的人士！
+Thank you to everyone who supports this project！
 
 
 
-## 鸣谢
+## Acknowledgment
 
-| 项目（排名不分先后）                                                          |
+| Projects (in no particular order)                                                          |
 | ---------------------------------------------------------------- |
 | [vue](https://github.com/vuejs/vue)                              |
 | [element-plus](https://github.com/element-plus/element-plus)     |
@@ -344,8 +344,8 @@ npm run serve
 | [nprogress](https://github.com/rstacruz/nprogress)      |
 
 
-## 商用注意事项
+## Commercial considerations
 
-此项目可免费用于商业用途，请遵守 [MIT](https://opensource.org/licenses/MIT)  协议并保留作者技术支持声明。
+This project can be used for commercial purposes free of charge. Please comply with [MIT]（ https://opensource.org/licenses/MIT ）Agreement and retention of the author's technical support statement
 
 Copyright (c) 2022-present, Todoadmin.com
