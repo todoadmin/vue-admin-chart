@@ -138,6 +138,7 @@ npm run lint
 - Commercially available free of charge
 - PC, mobile, tablet and other multi terminal compatibility
 - Dynamic routing menu authentication
+- Support MarkDown(md) file to Vue Component page
 - Support mock data and remote data
 - Support button function permission control
 - Support the assignment of roles and permissions of member and administrator
@@ -223,6 +224,7 @@ Compared with other open source admin management, it has the following advantage
 9. Support HTTPS data encryption transmission
 10. Use CDN to distribute CSS, JS and image, so speed up
 11. Full screen operation
+12. Support MarkDown(md) file to Vue Component page
 
 Precautions for use:
 1. Project uses Chrome browser , and Vue devtools plug-in debugging

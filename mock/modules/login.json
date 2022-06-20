@@ -1,0 +1,155 @@
+{
+    "code": 0,
+    "message": "操作成功！",
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cGUiOiJKV1QifQ.eyJpc3MiOiJ7XCJ1aWRcIjoxLFwidXNlcm5hbWVcIjpcImd1ZXN0XCJ9Iiwic3ViIjoiYXBpLnRvZG9hZG1pbi5jbiIsImF1ZCI6ImFwaS50b2RvYWRtaW4uY24iLCJpYXQiOjE2NTUyNjg3NjQsImV4cCI6MTY1NTI4MzE2NCwibmJmIjoxNjU1MjY4NzY0LCJqdGkiOiJmZmJmYjYwYTQ2OTRiYzcyNzBmNTQ3OGIwOGNlY2I1ZiJ9.Xvpz4EPMXS6hi9HfFGviqqyQ4c-SylBTF4QuRNyXpPI",
+    "data": {
+        "userInfo": {
+            "uid": 1,
+            "username": "guest",
+            "truename": "李大龙",
+            "status": 1,
+            "level": 0,
+            "avatar_url": "/images/avatar.jpeg"
+        },
+        "menu": [
+            {
+                "path": "/",
+                "redirect": "/home",
+                "name": "Home",
+                "component": "Layout",
+                "meta": {
+                    "title": "首页",
+                    "layout": true,
+                    "icon": "House",
+                    "requiresAuth": true,
+                    "hidden": false,
+                    "keepAlive": true,
+                    "new": false
+                },
+                "children": [
+                    {
+                        "path": "/home",
+                        "name": "Home",
+                        "component": "Dashboard",
+                        "meta": {
+                            "title": "首页",
+                            "icon": "House",
+                            "layout": false,
+                            "requiresAuth": true,
+                            "hidden": false,
+                            "keepAlive": true,
+                            "new": false
+                        }
+                    }
+                ]
+            },
+            {
+                "path": "/banner",
+                "name": "Banner",
+                "component": "Layout",
+                "meta": {
+                    "title": "广告橱窗管理",
+                    "layout": false,
+                    "icon": "ScaleToOriginal",
+                    "requiresAuth": true,
+                    "hidden": false,
+                    "keepAlive": true,
+                    "new": false
+                },
+                "children": [
+                    {
+                        "path": "/banner/index",
+                        "name": "BannerIndex",
+                        "component": "@/views/banner/index/index.vue",
+                        "meta": {
+                            "title": "广告橱窗列表",
+                            "icon": "ScaleToOriginal",
+                            "layout": false,
+                            "requiresAuth": true,
+                            "hidden": false,
+                            "keepAlive": true,
+                            "new": false
+                        },
+                        "actions": [
+                            1148,
+                            1150,
+                            1152,
+                            1159,
+                            1161
+                        ]
+                    }
+                ]
+            },
+            {
+                "path": "/admin",
+                "name": "Admin",
+                "component": "Layout",
+                "meta": {
+                    "title": "管理员管理",
+                    "layout": false,
+                    "icon": "User",
+                    "requiresAuth": true,
+                    "hidden": false,
+                    "keepAlive": true,
+                    "new": false
+                },
+                "children": [
+                    {
+                        "path": "/admin/user",
+                        "name": "AdminUser",
+                        "component": "@/views/admin/user/index.vue",
+                        "meta": {
+                            "title": "管理员列表",
+                            "icon": "User",
+                            "layout": false,
+                            "requiresAuth": true,
+                            "hidden": false,
+                            "keepAlive": true,
+                            "new": false
+                        },
+                        "actions": [
+                            175,
+                            178,
+                            181,
+                            1823,
+                            1825
+                        ]
+                    }
+                ]
+            },
+            {
+                "path": "/log",
+                "name": "Log",
+                "component": "Layout",
+                "meta": {
+                    "title": "日志管理",
+                    "layout": false,
+                    "icon": "Document",
+                    "requiresAuth": true,
+                    "hidden": false,
+                    "keepAlive": true,
+                    "new": false
+                },
+                "children": [
+                    {
+                        "path": "/log/adminopr",
+                        "name": "LogAdminOpr",
+                        "component": "@/views/log/admin/operate.vue",
+                        "meta": {
+                            "title": "管理员操作日志",
+                            "icon": "Document",
+                            "layout": false,
+                            "requiresAuth": true,
+                            "hidden": false,
+                            "keepAlive": true,
+                            "new": false
+                        },
+                        "actions": [
+                            146
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

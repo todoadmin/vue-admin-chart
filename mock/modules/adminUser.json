@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "message": "操作成功！",
+    "data": {
+        "list": [
+            {
+                "id": 24,
+                "uqid": 188,
+                "uid": 890770,
+                "level": 10,
+                "status": 1,
+                "salt": 21227,
+                "gender": 1,
+                "create_time": 1650776342,
+                "update_time": 0,
+                "login_time": 0,
+                "password": "8dfbb697ec9f75a074e26d67c5122511",
+                "username": "ttttt",
+                "truename": "哈市是",
+                "ip": "2130706433",
+                "email": "vpanda666@gmail.com",
+                "remark": "哈哈哈12312312",
+                "role": "[136, 134, 90, 112, 114, 118]",
+                "extra": "[55, 163, 165, 170]"
+            },
+            {
+                "id": 19,
+                "uqid": 156,
+                "uid": 777157,
+                "level": 10,
+                "status": 1,
+                "salt": 6851,
+                "gender": 2,
+                "create_time": 1647396480,
+                "update_time": 1647590886,
+                "login_time": 1647590880,
+                "password": "8f4ffa93791f8a92e7e5a1b1f490f1ac",
+                "username": "admin",
+                "truename": "管理员",
+                "ip": "2130706433",
+                "email": "test123456@admin.com",
+                "remark": "143343",
+                "role": "[118]",
+                "extra": "[259, 261, 265, 267, 1425]"
+            }
+        ],
+        "total": 2,
+        "size": 2,
+        "page": 1
+    }
+}
