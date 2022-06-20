@@ -22,7 +22,7 @@
 </p>
 
 
-> TodoAdmin-Vue版：是一个集成管理后台端模板解决方案，项目采用TS脚本语言，基于Vue 3.2+/Vue-cli 5.0+/Vue-router 4.0+、Axios0.2.7+、Element-plus 2.2+、Pinia 2.0+、ECharts 5.3+等搭建，项目是以Composition api风格编写。
+> TodoAdmin-Vue版：是一个集成管理后台端模板解决方案，项目采用TS脚本语言，基于Vue 3.2+/Vue-cli 5.0+/Vue-router 4.0+、Axios0.2.7+、Element-plus 2.2+、Pinia 2.0+、ECharts 5.3+等搭建，项目是以Composition api风格编写，采用远程API接口和本地Mock双接口模式加载数据。
 
 
 ## 体验Demo地址
