@@ -24,6 +24,17 @@
 
 > TodoAdmin-Vue:It is an integrated management back-end template solution. The project uses TS script language and is based onVue 3.2+/Vue-cli 5.0+/Vue-router 4.0+、Axios0.2.7+、Element-plus 2.2+、Pinia 2.0+、ECharts 5.3+,The project is composition API style,use remote API & mock dual interface mode to load data.
 
+<table>
+    <tr>
+        <td>
+            <img width="450px" src="https://img.todoadmin.com/et/show/todo-3.gif">
+        </td>
+        <td>
+            <img width="450px" src="https://img.todoadmin.com/et/show/todo-5.gif">
+        </td>
+    </tr>
+</table>
+
 
 ## Demo
 
