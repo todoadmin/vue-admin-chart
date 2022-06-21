@@ -9,7 +9,7 @@
 //===================按需引入ICON图标======================
  import {
     User,Setting,ArrowDownBold,Search,House,Plus,
-    ArrowUpBold,Expand,
+    ArrowUpBold,Expand,Avatar,
     Refresh,Key,Link,SwitchButton,Fold,
     Location,MoreFilled,InfoFilled,
     Document,Paperclip,ScaleToOriginal
@@ -25,6 +25,7 @@ const icons = {
     'Paperclip': Paperclip,
     'ScaleToOriginal': ScaleToOriginal,
 
+    'Avatar': Avatar,
     'Key': Key,
     'House': House,
     'InfoFilled': InfoFilled,

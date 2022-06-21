@@ -10,7 +10,7 @@
       </el-form-item>
       <el-form-item>
         <div class="title">
-          后台管理系统
+          TodoAdmin后台管理系统
         </div>
       </el-form-item>
  
@@ -178,6 +178,10 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
+::v-deep.el-form .el-form-item__content {
+    display: inline;
+    margin-left: 0px !important;
+}
 .login-container {
   margin: 0 auto;
   height: 100%;
@@ -204,7 +208,7 @@ export default defineComponent({
     position: relative;
     width: 600px;
     max-width: 90%;
-    padding: 120px 0 230px 0;
+    padding: 100px 0 230px 0;
     overflow: hidden;
     .btn-submit {
       width:100%;
@@ -215,7 +219,7 @@ export default defineComponent({
   }
   .title {
     margin: 0 auto 20px auto;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     font-weight: 600;
     color:#f2f2f2;
@@ -229,11 +233,11 @@ export default defineComponent({
   }
   .repo {
     margin: 0 auto;
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 10px;
     span {
-      margin: 0 26px;
+      margin: 0 15px;
     }
   }
   .repo-link {
