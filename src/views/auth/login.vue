@@ -10,7 +10,7 @@
       </el-form-item>
       <el-form-item>
         <div class="title">
-          TodoAdmin后台管理系统
+          TodoAdmin管理系统<span class="title-min">-base</span>
         </div>
       </el-form-item>
  
@@ -42,6 +42,11 @@
           <span><a :href="data.table.gitee" class="repo-link" target="_blank">Gitee Repo</a></span>
         </div>
       </el-form-item>
+      <el-form-item>
+        <div class="copyright">
+          Copyright (c) {{data.table.year}}, Todoadmin.com
+        </div>
+      </el-form-item>
     </el-form>
     </transition>
   </div>
@@ -65,12 +70,15 @@ export default defineComponent({
     const formRef:any = ref<FormInstance>()
     //清除localStorage所有的值
     cache.clearLocalStorage()
+    let date:any = new Date()
+    let year:string = date.getFullYear()
 
     const data:any = reactive({
       //Table列表相关数据
       table: {
         github: G.GITHUB_REPO_URL,
         gitee: G.GITEE_REPO_URL,
+        year:year,
       },
       //Form表单相关数据
       form: {
@@ -224,6 +232,12 @@ export default defineComponent({
     font-weight: 600;
     color:#f2f2f2;
   }
+  .title-min {
+    padding-left: 3px;
+    color:#fff;
+    font-size:14px;
+    font-weight: 500;
+  }
   .tips {
     margin: 0 auto;
     font-size: 18px;
@@ -255,6 +269,11 @@ export default defineComponent({
     font-size:20px;
     color:#345cc0;
   }
- 
+  .copyright {
+    color:#fff;
+    font-size:14px;
+    margin:0 auto;
+    text-align: center;
+  }
 }
 </style>

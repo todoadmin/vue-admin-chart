@@ -50,9 +50,9 @@
 # Clone
 git clone -b  https://github.com/todoadmin/vue-admin-chart.git
 # install
-npm i
+npm i     or     yarn install
 # run project
-npm run serve
+npm run serve     or     yarn serve
 ```
 
 
@@ -62,9 +62,9 @@ npm run serve
 # Clone
 git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
 # install
-npm i
+npm i     or     yarn install
 # run project
-npm run serve
+npm run serve     or     yarn serve
 ```
 
 

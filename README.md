@@ -51,9 +51,9 @@
 # 克隆项目
 git clone -b  https://github.com/todoadmin/vue-admin-chart.git
 # 安装依赖
-npm i
+npm i     or     yarn install
 # 本地开发 启动项目
-npm run serve
+npm run serve     or     yarn serve
 ```
 
 
@@ -63,9 +63,9 @@ npm run serve
 # 克隆项目
 git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
 # 安装依赖
-npm i
+npm i     or     yarn install
 # 本地开发 启动项目
-npm run serve
+npm run serve     or     yarn serve
 ```
 
 
