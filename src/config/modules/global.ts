@@ -43,6 +43,6 @@ export const MAPS_URL = {
 };
 
 //Github项目仓库地址
-export const GITHUB_REPO_URL = 'https://github.com/todoadmin-com/vue3-elementPlus-pinia'
+export const GITHUB_REPO_URL = 'https://github.com/todoadmin/vue-admin-chart'
 //Gitee 码云项目仓库地址
-export const GITEE_REPO_URL = 'https://gitee.com/todoadmin-com/vue3-element-plus-pinia'
+export const GITEE_REPO_URL = 'https://gitee.com/todoadmin/vue-admin-chart'

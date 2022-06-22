@@ -1,6 +1,6 @@
 简体中文 | [English](./README.en.md) 
 
-<h1>TodoAdmin<font color="#666" size=4>-vue3</font></h1>
+<h1>TodoAdmin<font color="#666" size=4>-vue</font></h1>
 
 <p align="center">
   <a href="https://pro.todoadmin.com" target="_blank">
@@ -176,8 +176,8 @@ npm run lint
 
 - [Todoadmin-pro Pro专业版演示地址（vue3.2+ 支持 PC、平板、手机）](https://pro.todoadmin.com)
 - [Todoadmin-base 基本版演示地址（vue3.2+ 支持 PC、平板、手机）](https://base.todoadmin.com)
-- [Github 地址](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
-- [Gitee 码云地址](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+- [Github 地址](https://github.com/todoadmin/vue-admin-chart)
+- [Gitee 码云地址](https://gitee.com/todoadmin/vue-admin-chart)
 <p>用户名：guest</p><p>密码：123456</p>
 
 ## 打赏&联系
@@ -195,11 +195,11 @@ npm run lint
 </table>
 
 
-## 克隆Todoadmin-vue3 项目 [点击访问Github仓库](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+## 克隆vue-admin-chart 项目 [点击访问Github仓库](https://github.com/todoadmin/vue-admin-chart)
 
 ```bash
 # 克隆项目
-git clone -b  https://github.com/todoadmin-com/vue3-elementPlus-pinia.git
+git clone -b  https://github.com/todoadmin/vue-admin-chart.git
 # 安装依赖
 npm i
 # 本地开发 启动项目
@@ -207,11 +207,11 @@ npm run serve
 ```
 
 
-## 克隆Todoadmin-vue3 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+## 克隆vue-admin-chart 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin/vue-admin-chart)
 
 ```bash
 # 克隆项目
-git clone -b  https://gitee.com/todoadmin-com/vue3-element-plus-pinia.git
+git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
 # 安装依赖
 npm i
 # 本地开发 启动项目

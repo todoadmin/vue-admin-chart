@@ -1,7 +1,11 @@
 {
-  "name": "todoadmin-vue",
+  "name": "vue-admin-chart",
   "version": "1.0.0",
-  "private": true,
+  "author": "程序猿视觉[CoderVision] <vpanda666@gmail.com>",
+  "homepage": "https://base.todoadmin.com",
+  "description": "Simple fast beautiful vue admin template,vue3 admin,vue-admin,vue-admin-chart,vue后台管理,vue3管理后台,todoadmin chart,vue element-plus,element admin,vue echart,vue element admin,https://base.todoadmin.com",
+  "license": "MIT",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -47,6 +51,31 @@
     "vue-markdown-loader": "^2.5.0",
     "vue-template-compiler": "^2.6.14"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todoadmin/vue-admin-chart.git"
+  },
+  "keywords": [
+    "todoadmin",
+    "vue",
+    "admin",
+    "chart-admin",
+    "dashboard",
+    "element-ui",
+    "vue-admin",
+    "element-admin",
+    "admin-template",
+    "admin-management",
+    "management-system"
+  ],
+  "bugs": {
+    "url": "https://github.com/todoadmin/vue-admin-chart/issues"
+  },
+  "engines": {
+    "node": ">=8.9",
+    "npm": ">= 3.0.0"
+  },
+  
   "eslintConfig": {
     "root": true,
     "env": {

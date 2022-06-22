@@ -1,6 +1,6 @@
 import Mock from 'mockjs'
 //引入配置文件config.js
-const conf = require("../config.js")
+const conf = require("../src/config/config.ts")
 // 设置拦截ajax请求的相应时间
 Mock.setup({
     timeout: '100-500'

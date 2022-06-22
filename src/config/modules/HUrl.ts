@@ -4,7 +4,7 @@
  * @since 2022-03-19
  */
 //引入配置文件config.js
-const conf = require("../../../config.js")
+const conf = require("../config.ts")
 
 //HTTP RESTFUL根地址
 export const HTTP_BASE_URL = conf.BASE_URL

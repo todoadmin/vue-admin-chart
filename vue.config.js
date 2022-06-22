@@ -1,5 +1,5 @@
 // 引入配置文件config.js
-const conf = require('./config')
+const conf = require('./src/config/config.ts')
 
 const { defineConfig } = require('@vue/cli-service')
 const webpack = require('webpack')

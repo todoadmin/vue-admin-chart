@@ -1,6 +1,6 @@
 [简体中文](./README.md) | English
 
-<h1>TodoAdmin<font color="#666" size=4>-vue3</font></h1>
+<h1>TodoAdmin<font color="#666" size=4>-vue</font></h1>
 
 <p align="center">
   <a href="https://pro.todoadmin.com" target="_blank">
@@ -176,8 +176,8 @@ npm run lint
 
 - [Todoadmin-pro Pro demo](https://pro.todoadmin.com)
 - [Todoadmin-base Basic demo](https://base.todoadmin.com)
-- [Github repository](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
-- [Gitee repository](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+- [Github repository](https://github.com/todoadmin/vue-admin-chart)
+- [Gitee repository](https://gitee.com/todoadmin/vue-admin-chart)
 <p>Username：guest</p><p>Password：123456</p>
 
 ## Reward & contact
@@ -195,11 +195,11 @@ npm run lint
 </table>
 
 
-## Clone project [Click Github repository](https://github.com/todoadmin-com/vue3-elementPlus-pinia)
+## Clone project [Click Github repository](https://github.com/todoadmin/vue-admin-chart)
 
 ```bash
 # Clone
-git clone -b  https://github.com/todoadmin-com/vue3-elementPlus-pinia.git
+git clone -b  https://github.com/todoadmin/vue-admin-chart.git
 # install
 npm i
 # run project
@@ -207,11 +207,11 @@ npm run serve
 ```
 
 
-## Clone project [Click Gitee repository](https://gitee.com/todoadmin-com/vue3-element-plus-pinia)
+## Clone project [Click Gitee repository](https://gitee.com/todoadmin/vue-admin-chart)
 
 ```bash
 # Clone
-git clone -b  https://gitee.com/todoadmin-com/vue3-element-plus-pinia.git
+git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
 # install
 npm i
 # run project

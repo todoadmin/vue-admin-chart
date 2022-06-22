@@ -178,7 +178,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-::v-deep.el-form .el-form-item__content {
+:deep(.el-form .el-form-item__content) {
     display: inline;
     margin-left: 0px !important;
 }

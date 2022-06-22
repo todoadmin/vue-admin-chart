@@ -12,7 +12,7 @@ import { ElIcon } from '@/config/modules/ElIcon' // 引入自定义的ElmentPlus
 //当为非生产环境(!production)时导入mock
 if (process.env.NODE_ENV !== "production") {
   //引入配置文件config.js
-  const conf = require("../config.js")
+  const conf = require("./config/config.ts")
   //DEV环境数据使用 mock数据 还是api接口数据
   //value:  mock  ||  api    default value: api
   if (conf.DEV_DATA_SOURCE === 'mock') {
