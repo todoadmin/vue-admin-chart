@@ -114,7 +114,7 @@ npm run lint
 
 ### Config
 ```
-/src/config/config.js
+/src/config/config.ts
 ```
 
 
