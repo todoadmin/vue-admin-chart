@@ -112,6 +112,11 @@ npm run build  or  yarn build
 npm run lint
 ```
 
+### Config
+```
+/src/config/config.js
+```
+
 
 [vue]: https://github.com/vuejs/vue
 [vue-ico]:https://img.shields.io/badge/Vue-v3.2.36-brightgreen
