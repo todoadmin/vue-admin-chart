@@ -43,6 +43,31 @@
 <p>Username：guest</p><p>Password：123456</p>
 
 
+
+## Clone project [Click Github repository](https://github.com/todoadmin/vue-admin-chart)
+
+```bash
+# Clone
+git clone -b  https://github.com/todoadmin/vue-admin-chart.git
+# install
+npm i
+# run project
+npm run serve
+```
+
+
+## Clone project [Click Gitee repository](https://gitee.com/todoadmin/vue-admin-chart)
+
+```bash
+# Clone
+git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
+# install
+npm i
+# run project
+npm run serve
+```
+
+
 <p>The following is a introduction of the pro version</p>
 
 
@@ -193,30 +218,6 @@ npm run lint
         </td>
     </tr>
 </table>
-
-
-## Clone project [Click Github repository](https://github.com/todoadmin/vue-admin-chart)
-
-```bash
-# Clone
-git clone -b  https://github.com/todoadmin/vue-admin-chart.git
-# install
-npm i
-# run project
-npm run serve
-```
-
-
-## Clone project [Click Gitee repository](https://gitee.com/todoadmin/vue-admin-chart)
-
-```bash
-# Clone
-git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
-# install
-npm i
-# run project
-npm run serve
-```
 
 
 

@@ -43,6 +43,32 @@
 <p>用户名：guest</p><p>密码：123456</p>
 
 
+
+
+## 克隆vue-admin-chart 项目 [点击访问Github仓库](https://github.com/todoadmin/vue-admin-chart)
+
+```bash
+# 克隆项目
+git clone -b  https://github.com/todoadmin/vue-admin-chart.git
+# 安装依赖
+npm i
+# 本地开发 启动项目
+npm run serve
+```
+
+
+## 克隆vue-admin-chart 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin/vue-admin-chart)
+
+```bash
+# 克隆项目
+git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
+# 安装依赖
+npm i
+# 本地开发 启动项目
+npm run serve
+```
+
+
 <p>以下为Pro版本的相关介绍</p>
 
 
@@ -193,31 +219,6 @@ npm run lint
         </td>
     </tr>
 </table>
-
-
-## 克隆vue-admin-chart 项目 [点击访问Github仓库](https://github.com/todoadmin/vue-admin-chart)
-
-```bash
-# 克隆项目
-git clone -b  https://github.com/todoadmin/vue-admin-chart.git
-# 安装依赖
-npm i
-# 本地开发 启动项目
-npm run serve
-```
-
-
-## 克隆vue-admin-chart 项目 [点击访问Gitee仓库](https://gitee.com/todoadmin/vue-admin-chart)
-
-```bash
-# 克隆项目
-git clone -b  https://gitee.com/todoadmin/vue-admin-chart.git
-# 安装依赖
-npm i
-# 本地开发 启动项目
-npm run serve
-```
-
 
 
 ## 优势&注意事项
