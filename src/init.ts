@@ -5,12 +5,11 @@
 import router from './router' // 路由
 import store from './store/init' // store 存储仓库
 import ElementPlus from 'element-plus' // 引入ElementPlus
-import 'element-plus/dist/index.css' // 引入ElementPlus的相关的基本样式
-import '@/assets/css/index.min.css' // 引入自定义的基本样式
 import { ElIcon } from '@/config/modules/ElIcon' // 引入自定义的ElmentPlus icon图标库
 
 //当为非生产环境(!production)时导入mock
 if (process.env.NODE_ENV !== "production") {
+  require("element-plus/dist/index.css")
   //引入配置文件config.js
   const conf = require("./config/config.ts")
   //DEV环境数据使用 mock数据 还是api接口数据

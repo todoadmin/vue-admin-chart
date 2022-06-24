@@ -208,8 +208,8 @@ export const routesStatic:any = [
     ]
   },
   {
-    path: '/other',
-    name: 'Other',
+    path: '/others',
+    name: 'Others',
     component: componentRouter.Layout,
     meta: {
       title: '其他页面',

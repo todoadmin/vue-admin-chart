@@ -27,14 +27,5 @@ export default defineComponent({
 })
 </script>
 
-
 <style scoped lang="scss">
-
-/* iframe {
-  display: block;
-  background: #000;
-  border: none;
-  height: 100vh;
-  width: 100vw;
-} */
 </style>

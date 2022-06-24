@@ -13,15 +13,16 @@
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
-      <noscript>
-        <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-      </noscript>
-      <!-- built files will be auto injected -->
-      <script  type="text/javascript" src="//api.map.baidu.com/getscript?v=2.0&ak=m97an4g1hqj4ARHAKbRtcZgx0z3WqDia" ></script>
-      <div id="app"></div>
-      <!-- 使用CDN的JS文件 -->
-      <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
-        <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
-      <% } %>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <!-- built files will be auto injected -->
+    <script  type="text/javascript" src="//api.map.baidu.com/getscript?v=2.0&ak=m97an4g1hqj4ARHAKbRtcZgx0z3WqDia" ></script>
+    <div id="app"></div>
+    <!-- 使用CDN的JS文件 -->
+    <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
+      <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
+    <% } %>
+    <link href="/assets/css/custom.css" rel="stylesheet">
   </body>
 </html>

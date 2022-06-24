@@ -14,10 +14,11 @@
 </template>
 <style scoped lang="scss">
 .alert-box {
-    border:1px solid #cf504f; background: #fff;
+    border:1px solid #cf504f; background: #fef4e7 !important;
     margin-bottom: 15px;
     margin-top: 15px;
     height:40px;
+    line-height: 40px;
     .alert-msg {
         display: flex; align-items: center; justify-content: center;color:#222;
         a {
