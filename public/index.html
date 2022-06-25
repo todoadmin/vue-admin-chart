@@ -23,5 +23,6 @@
     <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
       <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
     <% } %>
+    <link href="/assets/css/custom.css" rel="stylesheet">
   </body>
 </html>

@@ -3,11 +3,11 @@
  * @author jihua.huang
  * @since 2022-03-19
  */
-//引入配置文件config.js
-const conf = require("../config.ts")
+//引入基本配置文件base.js
+const BASE = require("./base.ts")
 
 //HTTP RESTFUL根地址
-export const HTTP_BASE_URL = conf.BASE_URL
+export const HTTP_BASE_URL = BASE.BASE_URL
 
 /** 后缀地址（可以为版本目录，如：/v1） */
 export const PREFIX_PATH = '/v1'

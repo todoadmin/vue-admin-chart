@@ -10,7 +10,6 @@ exports.prodCDN = {
     css: [
         'https://cdn.bootcdn.net/ajax/libs/element-plus/' + ver['element-plus'].replace(/\~|\^/g, '') + '/index.css',
         'https://cdn.bootcdn.net/ajax/libs/github-markdown-css/' + ver['github-markdown-css'].replace(/\~|\^/g, '') + '/github-markdown.min.css',
-        '/assets/css/custom.css',
     ],
     js: [
         'https://cdn.bootcdn.net/ajax/libs/vue/' + ver.vue.replace(/\~|\^/g, '') + '/vue.runtime.global.prod.min.js',
@@ -32,7 +31,6 @@ exports.devCDN = {
     css: [
         'https://cdn.bootcdn.net/ajax/libs/element-plus/' + ver['element-plus'].replace(/\~|\^/g, '') + '/index.css',
         'https://cdn.bootcdn.net/ajax/libs/github-markdown-css/' + ver['github-markdown-css'].replace(/\~|\^/g, '') + '/github-markdown.min.css',
-        '/assets/css/custom.css',
     ],
     js: [
     ],
