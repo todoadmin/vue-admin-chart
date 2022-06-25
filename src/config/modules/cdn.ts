@@ -21,7 +21,6 @@ exports.prodCDN = {
         'https://cdn.bootcdn.net/ajax/libs/element-plus/' + ver['element-plus'].replace(/\~|\^/g, '') + '/index.full.min.js',
         'https://cdn.bootcss.com/blueimp-md5/2.10.0/js/md5.min.js',
         'https://unpkg.com/@element-plus/icons-vue',
-        //'https://cdn.bootcdn.net/ajax/libs/highlight.js/11.5.1/highlight.min.js',
         'https://cdn.jsdelivr.net/npm/@element-plus/icons-vue@2.0.6/dist/index.iife.min.js',
     ],
 }
@@ -29,8 +28,8 @@ exports.prodCDN = {
 //DEV环境相关的CDN连接地址 dev cdn link
 exports.devCDN = {
     css: [
-        'https://cdn.bootcdn.net/ajax/libs/element-plus/' + ver['element-plus'].replace(/\~|\^/g, '') + '/index.css',
-        'https://cdn.bootcdn.net/ajax/libs/github-markdown-css/' + ver['github-markdown-css'].replace(/\~|\^/g, '') + '/github-markdown.min.css',
+        '/assets/css/element-plus.min.css',
+        '/assets/css/github-markdown.min.css',
     ],
     js: [
     ],
@@ -47,7 +46,6 @@ exports.PROD_EXTERNALS = {
     'element-plus':'ElementPlus',
     '@element-plus/icons-vue':'ElementPlusIconsVue',
     'js-md5':'md5',
-    //'highlight.js':'hljs',
 }
 
 exports.DEV_EXTERNALS = {}

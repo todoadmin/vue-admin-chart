@@ -1,17 +1,17 @@
 /*HTTP Restful API 数据交换地址 */
 // 是否是生产环境
-const isProduction = process.env.NODE_ENV === 'production'
+const PRODUCTION = process.env.NODE_ENV === 'production'
 //获取CDN相关的配置
 const CDN = require('./modules/cdn.ts')
 //获取基本的配置
 const BASE = require('./modules/base.ts')
 
 //资源环境
-exports.PRODUCTION = isProduction
+exports.PRODUCTION = PRODUCTION
 //静态资源CDN
-exports.EXTERNALS = isProduction ? CDN.PROD_EXTERNALS : CDN.DEV_EXTERNALS
+exports.EXTERNALS = PRODUCTION ? CDN.PROD_EXTERNALS : CDN.DEV_EXTERNALS
 //静态资源CDN
-exports.STATIC_CDN = isProduction ? CDN.prodCDN : CDN.devCDN
+exports.STATIC_CDN = PRODUCTION ? CDN.prodCDN : CDN.devCDN
 //资源环境
 //Api restful 地址
 exports.BASE_URL = BASE.BASE_URL
