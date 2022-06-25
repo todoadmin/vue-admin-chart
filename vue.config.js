@@ -65,7 +65,8 @@ module.exports = defineConfig({
           // 公用|自定义模块剥离
           common: {
             chunks: 'all',
-            test: /[\\/]src[\\/]utils[\\/]/,
+            //test: /[\\/]src[\\/]utils[\\/]/,
+            test: /[\\/]src[\\/](utils|config|service|router|store|directive)[\\/]/,
             name: 'common',
             minChunks: 1,
             maxInitialRequests: 5,
