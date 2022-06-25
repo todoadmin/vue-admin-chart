@@ -1,11 +1,10 @@
 <template>
   <el-affix>
-    <el-button type="warning" :icon="Setting" @click="handleDrawer">设置</el-button>
+    <el-button type="warning" icon="Setting" @click="handleDrawer">设置</el-button>
   </el-affix>
 </template>
 <script lang="ts">
-import { defineComponent, ref } from 'vue'
-import { Setting } from '@element-plus/icons-vue'
+import { defineComponent } from 'vue'
 import { setting } from '@/utils'
 
 export default defineComponent({
@@ -15,7 +14,6 @@ export default defineComponent({
       setting.setDrawer()
     }
     return {
-      Setting,
       handleDrawer,
     }
   }

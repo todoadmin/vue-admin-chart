@@ -11,7 +11,7 @@
               format="YYYY/MM/DD" value-format="YYYY-MM-DD"  />
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="pageSearch(searFormRef)" :icon="Search">查询</el-button>
+          <el-button type="primary" @click="pageSearch(searFormRef)" icon="Search">查询</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -19,7 +19,7 @@
   <el-row :gutter="12"  class="tab-container">
     <div class="tab-bar">
       <div class="box-left">
-        <el-button type="danger" :icon="CircleClose" @click="deleteLogs()">删除日志</el-button>
+        <el-button type="danger" icon="CircleClose" @click="deleteLogs()">删除日志</el-button>
       </div>
       <div class="tab-bar-txt box-right">总共 {{ data.pagination.total }} </div>
     </div>
@@ -73,7 +73,6 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
-import { Search, CircleCheck, CircleClose } from '@element-plus/icons-vue'
 import type { ElTable } from 'element-plus'
 import { comm } from '@/utils'
 import { G } from '@/config'
@@ -87,7 +86,6 @@ export default defineComponent({
   setup() {
     const searFormRef:any = ref<FormInstance>()
     const multipleRef = ref<InstanceType<typeof ElTable>>()
-
 
     //常用的响应数据
     const data:any = reactive({
@@ -168,13 +166,10 @@ export default defineComponent({
 
     return {
       comm,
-      Search,
-      CircleCheck,
-      CircleClose,
-      searFormRef,
       pageSearch,
       data,
       multipleRef,
+      searFormRef,
       multiChange,
       currentChange,
       deleteLog,

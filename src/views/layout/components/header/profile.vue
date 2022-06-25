@@ -70,7 +70,6 @@ export default defineComponent({
               ElMessage.success('登出成功')
               // 路由跳转
               let timeout = setTimeout(() => {
-                //router.removeRoute()
                 clearTimeout(timeout)
                 router.push(G.LOGIN_URL)
               }, 200)

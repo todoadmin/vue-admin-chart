@@ -32,11 +32,7 @@ export default defineComponent({
     //获取偏好设置信息
     const perfer:any = reactive(setting.getPerfer());
     return {
-      perfer,
-      CompHeaderCollapse,
-      CompHeaderBreadcrumb,
-      CompHeaderToolbar,
-      CompHeaderProfile
+      perfer
     }
   }
 })

@@ -1,6 +1,6 @@
 <template>
     <div class="nav-breadcrumb" >
-      <el-breadcrumb class="breadcrumb" :separator-icon="ArrowRight">
+      <el-breadcrumb class="breadcrumb" separator-icon="ArrowRight">
         <template v-for="item in list.Breadcrumb" :key="item.path">
             <el-breadcrumb-item :to="{path:item.path}">{{item.title}}</el-breadcrumb-item>
         </template>
@@ -13,7 +13,6 @@ import { defineComponent, reactive, watch } from 'vue'
 import { useRouter } from 'vue-router'
 
 import { setting } from '@/utils'
-import { ArrowRight } from '@element-plus/icons-vue'
 
 export default defineComponent({
   setup() {
@@ -28,7 +27,6 @@ export default defineComponent({
     }, { immediate: true, deep: true })
     return {
       list,
-      ArrowRight
     }
   }
 })
