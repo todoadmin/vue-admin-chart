@@ -11,10 +11,10 @@
   <el-row :gutter="12"  class="tab-container">
     <div class="tab-bar">
       <div class="box-left">
-        <el-button type="primary" :icon="CirclePlus">新增</el-button>
-        <el-button type="danger" :icon="CircleClose" @click="dels">删除</el-button>
-        <el-button type="success" :icon="CircleCheck" >上架</el-button>
-        <el-button type="warning" :icon="Warning" >下架</el-button>
+        <el-button type="primary" icon="CirclePlus">新增</el-button>
+        <el-button type="danger" icon="CircleClose" @click="dels">删除</el-button>
+        <el-button type="success" icon="CircleCheck" >上架</el-button>
+        <el-button type="warning" icon="Warning" >下架</el-button>
       </div>
       <div class="tab-bar-txt box-right">总共 {{ data.pagination.total }}  </div>
     </div>
@@ -75,7 +75,6 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
-import { Search, Warning, CirclePlus, CircleCheck, CircleClose } from '@element-plus/icons-vue'
 import type { ElTable } from 'element-plus'
 import { comm,setting } from '@/utils'
 import { SBanner } from '@/service'
@@ -102,7 +101,7 @@ export default defineComponent({
         list: [],// table列表数据数组
         carouselList: [],// banner列表
         length:5,//多少个橱窗广告
-        fit: 'scale-down',//'fill', 'contain', 'cover', 'none', 'scale-down'
+        fit: 'scale-down',
       },
       form: {
         uid: userInfo.uid,
@@ -200,11 +199,6 @@ export default defineComponent({
     
     return {
       comm,
-      Search,
-      CirclePlus,
-      Warning,
-      CircleCheck,
-      CircleClose,
       searFormRef,
       pageSearch,
       del,

@@ -19,7 +19,7 @@
               format="YYYY/MM/DD" value-format="YYYY-MM-DD"  />
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" @click="pageSearch(searFormRef)" :icon="Search">查询</el-button>
+          <el-button type="primary" @click="pageSearch(searFormRef)" icon="Search">查询</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -28,10 +28,10 @@
   <el-row :gutter="12"  class="tab-container">
     <div class="tab-bar">
       <div class="box-left">
-        <el-button type="primary" :icon="CirclePlus" @click="addUser()">添加</el-button>
-        <el-button type="danger" :icon="CircleClose" @click="dels">删除</el-button>
-        <el-button type="success" :icon="CircleCheck" @click="unlocks">解锁</el-button>
-        <el-button type="warning" :icon="Warning" @click="locks">锁定</el-button>
+        <el-button type="primary" icon="CirclePlus" @click="addUser()">添加</el-button>
+        <el-button type="danger" icon="CircleClose" @click="dels">删除</el-button>
+        <el-button type="success" icon="CircleCheck" @click="unlocks">解锁</el-button>
+        <el-button type="warning" icon="Warning" @click="locks">锁定</el-button>
       </div>
     </div>
     <el-table :data="data.table.list" border stripe ref="multipleRef" @selection-change="multiChange" class="table-data" empty-text="没有数据" :header-cell-style="{background:'#f0f1f2'}">
@@ -106,7 +106,6 @@
 
 <script lang="ts">
 import { defineComponent, reactive, ref } from 'vue'
-import { Search, Warning, CirclePlus, CircleCheck, CircleClose } from '@element-plus/icons-vue'
 import type { ElTable } from 'element-plus'
 import { comm } from '@/utils'
 import { SAdmin } from '@/service'
@@ -126,7 +125,7 @@ export default defineComponent({
     const data:any = reactive({
       //Table列表相关数据
       table: {
-        list: [],// table列表数据数组
+        list: [],
       },
       form: {
         uid: 1,
@@ -227,12 +226,6 @@ export default defineComponent({
     
     return {
       comm,
-      Search,
-      CirclePlus,
-      Warning,
-      CircleCheck,
-      CircleClose,
-      searFormRef,
       pageSearch,
       addUser,
       del,
