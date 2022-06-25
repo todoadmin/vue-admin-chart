@@ -11,15 +11,15 @@ module.exports = defineConfig({
   chainWebpack: config => {
     // Markdown文件
     config.module.rule('md')
-        .test(/\.md/)
-        .use('vue-loader')
-        .loader('vue-loader')
-        .end()
-        .use('vue-markdown-loader')
-        .loader('vue-markdown-loader/lib/markdown-compiler')
-        .options({
-            raw: true
-        })
+    .test(/\.md/)
+    .use('vue-loader')
+    .loader('vue-loader')
+    .end()
+    .use('vue-markdown-loader')
+    .loader('vue-markdown-loader/lib/markdown-compiler')
+    .options({
+        raw: true
+    })
     if (conf.PRODUCTION) {
       // 导入cdn静态文件连接 来自config.ts
       config.plugin('html').tap(args => {
@@ -37,13 +37,13 @@ module.exports = defineConfig({
       })
       // 清除生成环境的console.log输出
       config.optimization
-        .minimizer('terser')
-        .tap(args => {
-          Object.assign(args[0].terserOptions.compress, {
-            pure_funcs: ['console.log']
-          })
-          return args
+      .minimizer('terser')
+      .tap(args => {
+        Object.assign(args[0].terserOptions.compress, {
+          pure_funcs: ['console.log']
         })
+        return args
+      })
     }
   },
   configureWebpack: {

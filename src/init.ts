@@ -5,7 +5,8 @@
 import router from './router' // 路由
 import store from './store/init' // store 存储仓库
 import ElementPlus from 'element-plus' // 引入ElementPlus
-import { ElIcon } from '@/config/modules/ElIcon' // 引入自定义的ElmentPlus icon图标库
+//import { ElIcon } from '@/config/modules/ElIcon' // 按需引入自定义的ElmentPlus icon图标库
+import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 
 //当为非生产环境(!production)时导入mock
 if (process.env.NODE_ENV !== "production") {
@@ -29,6 +30,9 @@ export async function init(options: { app: any }) {
   // 引入ElementPlus以及初始化相关的部分属性
   app.use(ElementPlus)
   // 初始化Element ICON图标
-  ElIcon({ app })
+  for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+    app.component(key, component)
+  }
+  //ElIcon({ app })
   return { router }
 }

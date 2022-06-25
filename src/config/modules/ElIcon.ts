@@ -7,15 +7,15 @@
 //===================引入全部ICON图标======================
 
 //===================按需引入ICON图标======================
- import {
+/*  import {
     User,Setting,ArrowDownBold,Search,House,Plus,
     ArrowUpBold,Expand,Avatar,
     Refresh,Key,Link,SwitchButton,Fold,
     Location,MoreFilled,InfoFilled,
     Document,Paperclip,ScaleToOriginal
-} from '@element-plus/icons-vue'
+} from '@element-plus/icons-vue' */
 //转变为响应式数据 json/arr
-const icons = {
+/* const icons = {
     'User': User,
     'Search': Search,
     'Link': Link,
@@ -39,15 +39,23 @@ const icons = {
     'Expand': Expand,
     'Fold': Fold,
     'SwitchButton': SwitchButton,
-}
+} */
 //===================按需引入ICON图标======================
+
 
 export function ElIcon (options: { app: any }) {
     const { app } = options
     // 注册el-icon图标
-    for (const iconName in icons) {
+    /* for (const iconName in icons) {
         if (Reflect.has(icons,iconName)) {
             app.component(iconName, (icons as any)[iconName])
         }
-    }
+    } */
+    
+    /* for (const [key, component] of Object.entries(ElementPlusIconsVue)) {
+        app.component(key, component)
+    } */
+    /* for ([name, comp] of Object.entries(ElementPlusIconsVue)) {
+        app.component(name, comp);
+    } */
 }

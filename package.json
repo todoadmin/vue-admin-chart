@@ -17,10 +17,12 @@
     "axios": "^0.27.2",
     "core-js": "^3.23.1",
     "element-plus": "^2.2.5",
+    "highlight.js": "^11.5.1",
     "js-md5": "^0.7.3",
     "pinia": "^2.0.14",
     "pinia-plugin-persist": "^1.0.0",
     "vue": "^3.2.37",
+    "vue-demi": "^0.13.1",
     "vue-router": "^4.0.16"
   },
   "devDependencies": {
@@ -40,7 +42,6 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-vue": "^9.1.1",
     "github-markdown-css": "^5.1.0",
-    "highlight.js": "^11.5.1",
     "mockjs": "^1.1.0",
     "sass": "^1.52.3",
     "sass-loader": "^13.0.0",
@@ -75,7 +76,6 @@
     "node": ">=8.9",
     "npm": ">= 3.0.0"
   },
-  
   "eslintConfig": {
     "root": true,
     "env": {
