@@ -23,4 +23,4 @@ exports.DEV_PORT = BASE.DEV_PORT
 exports.PROXY_ROOT = BASE.PROXY_ROOT
 //DEV环境数据使用 mock数据 还是api接口数据
 //value:  mock  |  api    default value: api
-exports.DEV_DATA_SOURCE = BASE.DEV_DATA_SOURCE
+exports.DEV_DATA_SOURCE = BASE.DEV_DATA_SOURCE || 'mock'

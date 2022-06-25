@@ -1,5 +1,4 @@
 /*HTTP Restful API 数据交换地址 */
-//http restful API 请求地址
 //Production 生产环境
 if (process.env.NODE_ENV === 'production') {
    //http restful API 请求地址
