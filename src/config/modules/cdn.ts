@@ -5,7 +5,7 @@
 const pack = require('../../../package.json')
 //获取package.json的依赖属性
 const ver = pack.dependencies
-//生产环境相关的CDN连接地址 production cdn link
+//生产环境的CDN连接地址 production cdn link
 exports.prodCDN = {
     css: [
         'https://cdn.bootcdn.net/ajax/libs/element-plus/' + ver['element-plus'].replace(/\~|\^/g, '') + '/index.css',
@@ -25,7 +25,7 @@ exports.prodCDN = {
     ],
 }
 
-//DEV环境相关的CDN连接地址 dev cdn link
+//DEV环境的CDN连接地址 dev cdn link
 exports.devCDN = {
     css: [
         '/assets/css/element-plus.min.css',
@@ -35,7 +35,7 @@ exports.devCDN = {
     ],
 }
   
-//cdn的方式引入js文件等，以下文件配置不参与打包，使用外部CDN连接方式加载
+//cdn方式引入文件，以下文件不打包，使用外部CDN连接
 exports.PROD_EXTERNALS = {
     vue:'Vue',
     'vue-router': 'VueRouter',
