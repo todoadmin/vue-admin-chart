@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title><%= htmlWebpackPlugin.options.title %></title>
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <!-- 使用CDN的CSS文件 -->
     <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.css) { %>
       <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="preload" as="style">
       <link href="<%= htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet">
     <% } %>
-    <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
     <noscript>
@@ -23,6 +23,5 @@
     <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js) { %>
       <script src="<%= htmlWebpackPlugin.options.cdn.js[i] %>"></script>
     <% } %>
-    <link href="/assets/css/custom.css" rel="stylesheet">
   </body>
 </html>
