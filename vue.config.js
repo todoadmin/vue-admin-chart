@@ -20,12 +20,12 @@ module.exports = defineConfig({
     .options({
         raw: true
     })
+    // 导入cdn静态文件连接 来自config.ts
+    config.plugin('html').tap(args => {
+      args[0].cdn = conf.STATIC_CDN
+      return args
+    })
     if (conf.PRODUCTION) {
-      // 导入cdn静态文件连接 来自config.ts
-      config.plugin('html').tap(args => {
-        args[0].cdn = conf.STATIC_CDN
-        return args
-      })
       // 删除预加载优化
       config.plugins.delete('preload')
       config.plugins.delete('prefetch')

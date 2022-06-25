@@ -9,7 +9,7 @@
 import { defineComponent } from 'vue'
 import { CompSettingAlertMessage } from '@/views/layout/components/'
 // markdown样式
-import 'github-markdown-css'
+//import 'github-markdown-css'
 // 代码高亮
 import 'highlight.js/styles/github.css'
 import md from '../../../README.md'
