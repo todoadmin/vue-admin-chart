@@ -143,9 +143,7 @@ export function setPerfer(data: any) {
   if (Object.keys(data).length < 1) {
     return
   }
-  /* for (const [key, val] of Object.entries(data)) {
-    console.log(key, val,'--------------')
-  } */
+
   // 获取store里的perfer数据
   const perfer = initStore().refSettStore.perfer
   let newData:any = {}
