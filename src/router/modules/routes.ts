@@ -279,7 +279,6 @@ export const routesWhite = [
   {
     path: '/login',
     name: 'Login',
-    //component: () => import('@/views/layout/auth/login.vue'),
     component: componentRouter.LoginLayout,
     meta: {
       title: '登录',
@@ -291,7 +290,6 @@ export const routesWhite = [
   {
     path: '/register',
     name: 'Register',
-    //component: () => import('@/views/layout/auth/login.vue'),
     component: componentRouter.LoginLayout,
     meta: {
       title: '注册',

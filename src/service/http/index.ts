@@ -3,7 +3,6 @@
  */
  import axios from "axios"
  import EventEmitter from 'events'
- //import cache from '@/utils/cache' //引入cache
  import { G } from '@/config'   //引入常量和配置信息
  import { ElLoading } from 'element-plus'
 // 导入模块
@@ -62,14 +61,10 @@ const IExceptionData: IException = {
      * 拦截器处理
      */
     interceptors() {
-        if (Object.keys(G.AXIOS_TIMEOUT).length != 0) {
-            //axios.default.timeout = global.AXIOS_TIMEOUT
-        }
         // 添加请求拦截器
         axios.interceptors.request.use(
             (config) => {
                 let paramsData = config.params || {}
-                //if (typeof config.params.getBox === 'undefined') {
                 if (!paramsData.hasOwnProperty('getBox')) {
                     //数据加载动画效果（全屏loading）
                     this.startLoading()
@@ -97,13 +92,6 @@ const IExceptionData: IException = {
                 }
                 // 为请求头对象，添加 Token 验证的 Authorization 字段
                 config.headers.Authorization = Authorization;
-                /* config.headers.Name = info.getName;
-                config.headers.Device = info.getDevice();
-                config.headers.Browser = info.getBrowser();
-                config.headers.Version = info.getVersion;
-                config.headers.OS = info.getOS();
-                config.headers.Network = info.getNetwork(); */
-                //config.headers['Access-Control-Allow-Origin'] = '*';
                 // 发送请求前的处理
                 return config
             },
@@ -128,7 +116,6 @@ const IExceptionData: IException = {
                     } else {
                         // 响应错误逻辑处理 5xx 4xx 等等
                         this.error(response,'response#1')
-                        //return Promise.reject(response)
                     }
                 } else {
                     this.error(response,'response#2')
@@ -138,7 +125,6 @@ const IExceptionData: IException = {
             error => {
                 // 状态码
                 this.error(error,'response#3')
-                //return Promise.reject(error)
             }
         );
     }

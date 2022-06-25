@@ -58,13 +58,7 @@ export const logout = async (params : any) => {
   let data: any;
   await http.post(HUrl.LOGOUT_URL,params).then((result : any) => {
     //退出登陆要清理相关的localstrage和session缓存
-    //清理localstorage
-    const clearLocalStorage: any = [G.AUTHORIZATION_TOKEN,G.ROUTE_MENU,'settingStore','permissionStore']
     //清理session
-    const clearSession: any = [];
-    if (Object.keys(clearSession).length >= 1) {
-      cache.clearSessionStorage()
-    }
     //清除localStorage所有的值
     cache.clearLocalStorage()
     data = result;

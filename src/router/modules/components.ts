@@ -2,7 +2,6 @@
 import Layout from '@/views/layout/index.vue'
 import LoginLayout from '@/views/auth/login.vue'
 import NotFound from '@/views/error/404.vue'
-//import Home from '@/views/dashboard/index.vue'
 //========================对应的Route component Vue组件模板地址（非赖加载方式）======================
 
 //========================对应的Route component Vue组件模板地址（赖加载方式）======================

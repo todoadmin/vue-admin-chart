@@ -13,7 +13,6 @@ const router = createRouter({
 // 导航路由守卫
 router.beforeEach((to:any, from:any, next:any) => {
   try {
-    // 显示加载进度条效果
     // 路由在白名单里面
     if (existWhite(to.path)) {
       next()
