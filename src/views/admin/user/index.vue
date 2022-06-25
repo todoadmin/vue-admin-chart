@@ -226,6 +226,7 @@ export default defineComponent({
     
     return {
       comm,
+      searFormRef,
       pageSearch,
       addUser,
       del,
