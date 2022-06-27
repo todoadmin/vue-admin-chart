@@ -25,9 +25,6 @@ export const TOKEN_TIME_VALUE = 2 * 24 * 60 * 60
 // 后台管理列表每页默认多少条
 export const TABLE_LIST_SIZE = 20
 
-// 图片上传的大小限制：1M
-export const UPLOAD_IMAGE_MAX_SIZE = 1024 * 1024 * 2;
-
 // 跳转Login的URL地址
 export const LOGIN_URL = '/login';
 // 跳转Home的URL地址
