@@ -115,7 +115,8 @@ npm run lint
 
 ### 配置文件
 ```
-/src/config/config.ts
+#config目录下
+/src/config
 ```
 
 
