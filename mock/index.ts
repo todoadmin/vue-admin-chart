@@ -3,7 +3,7 @@ import Mock from 'mockjs'
 const conf = require("../src/config/config.ts")
 // 设置拦截ajax请求的相应时间
 Mock.setup({
-    timeout: '100-500'
+    timeout: '200-500'
 })
 //读取json文件
 function getJsonFile(filePath:string = '') {

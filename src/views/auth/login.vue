@@ -38,8 +38,8 @@
       </el-form-item>
       <el-form-item>
         <div class="repo">
-          <span><a :href="data.table.github" class="repo-link" target="_blank">Github Repo</a></span>
-          <span><a :href="data.table.gitee" class="repo-link" target="_blank">Gitee Repo</a></span>
+          <span><a :href="data.table.github" class="repo-link" target="_blank">Github</a></span>
+          <span><a :href="data.table.gitee" class="repo-link" target="_blank">Gitee</a></span>
         </div>
       </el-form-item>
       <el-form-item>
@@ -74,7 +74,6 @@ export default defineComponent({
     let year:string = date.getFullYear()
 
     const data:any = reactive({
-      //Table列表相关数据
       table: {
         github: G.GITHUB_REPO_URL,
         gitee: G.GITEE_REPO_URL,
@@ -106,8 +105,6 @@ export default defineComponent({
           { min: 6, max: 16, message: '密码长度' + ' 6 ~ 16', trigger: 'blur' },
         ],
       },
-      //是否显示局部loading效果
-      loading: false,
       // 已经提交过请求登陆，提交按钮变灰
       isSubmit: false,
       // 是否登陆成功，如果登陆成功，则隐藏form控件
