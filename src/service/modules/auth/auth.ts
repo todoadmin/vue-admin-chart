@@ -32,7 +32,6 @@ export const login = async (params : any) => {
         settStore.setToken(token)
         //LocalStorage原始也保存一份
         cache.setLocalStorage(G.AUTHORIZATION_TOKEN,token)
-        
       }
 
       // 设置用户基本信息，并写入到store中

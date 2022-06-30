@@ -5,7 +5,7 @@ if (process.env.NODE_ENV === 'production') {
    exports.BASE_URL = 'https://api.todoadmin.com'
 } else {
   //Dev开发环境 http restful API 请求地址
-  exports.BASE_URL = 'http://localhost:6868'
+  exports.BASE_URL = 'http://localhost:8080'
 }
 
 //DEV host 地址
