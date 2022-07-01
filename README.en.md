@@ -119,6 +119,9 @@ npm run lint
 
 #project main import module
 /src/config/index.ts
+
+#project run env require module
+/src/config/config.ts
 ```
 
 
