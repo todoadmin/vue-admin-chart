@@ -117,6 +117,9 @@ npm run lint
 ```
 #config目录下
 /src/config
+
+#项目主体配置import 模块
+/src/config/index.ts
 ```
 
 
