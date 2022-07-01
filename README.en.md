@@ -131,6 +131,9 @@ npm run lint
 
 #project main global constant import module
 /src/config/module/global.ts
+
+#project HTTP/HTTPS Restful request constant import module
+/src/config/module/HUrl.ts
 ```
 
 

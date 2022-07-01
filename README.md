@@ -132,6 +132,9 @@ npm run lint
 
 #项目主体全局常量import模块
 /src/config/module/global.ts
+
+#项目主体HTTP/HTTPS Restful请求接口地址常量import模块
+/src/config/module/HUrl.ts
 ```
 
 
