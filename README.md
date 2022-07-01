@@ -123,6 +123,9 @@ npm run lint
 
 #项目启动环境配置引入模块
 /src/config/config.ts
+
+#项目启动环境（生产环境/Dev环境）基本配置引入模块
+/src/config/module/base.ts
 ```
 
 

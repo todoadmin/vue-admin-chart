@@ -122,6 +122,9 @@ npm run lint
 
 #project run env require module
 /src/config/config.ts
+
+#project run env（production/Dev）base config require module
+/src/config/module/base.ts
 ```
 
 
