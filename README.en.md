@@ -128,6 +128,9 @@ npm run lint
 
 #project run env（production/Dev）CDN config require module
 /src/config/module/cdn.ts
+
+#project main global constant import module
+/src/config/module/global.ts
 ```
 
 

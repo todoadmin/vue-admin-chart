@@ -129,6 +129,9 @@ npm run lint
 
 #项目启动环境（生产环境/Dev环境）CDN配置引入模块
 /src/config/module/cdn.ts
+
+#项目主体全局常量import模块
+/src/config/module/global.ts
 ```
 
 
