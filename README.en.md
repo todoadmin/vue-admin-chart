@@ -125,6 +125,9 @@ npm run lint
 
 #project run env（production/Dev）base config require module
 /src/config/module/base.ts
+
+#project run env（production/Dev）CDN config require module
+/src/config/module/cdn.ts
 ```
 
 
