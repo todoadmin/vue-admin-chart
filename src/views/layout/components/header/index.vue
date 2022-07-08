@@ -1,9 +1,9 @@
 <template>
   <div class="nav-header">
     <!-- 导入头部左边菜单伸缩组件 -->
-    <CompHeaderCollapse v-if="perfer.collapse != 0" />
+    <CompHeaderCollapse v-if="prefer.collapse != 0" />
     <!-- 导入头部面包屑导航栏组件 -->
-    <CompHeaderBreadcrumb v-if="perfer.breadcrumb != 0" />
+    <CompHeaderBreadcrumb v-if="prefer.breadcrumb != 0" />
     <!-- 导入头部工具栏组件 -->
     <CompHeaderToolbar />
     <!-- 导入头部用户简介下拉菜单组件 -->
@@ -30,9 +30,9 @@ export default defineComponent({
   },
   setup() {
     //获取偏好设置信息
-    const perfer:any = reactive(setting.getPerfer());
+    const prefer:any = reactive(setting.getPrefer());
     return {
-      perfer
+      prefer
     }
   }
 })

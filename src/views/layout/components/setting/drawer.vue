@@ -45,27 +45,27 @@ import { G } from '@/config'
 
 export default defineComponent({
   setup() {
-    const perfer:any = reactive(setting.getPerfer());
+    const prefer:any = reactive(setting.getPrefer());
     
     //常用的响应数据
     const data:any = reactive({
       form: {
         lang: G.LANG_DEFAULT,//主题皮肤，不选为默认皮肤
-        theme: comm.toStr(perfer.value.theme) ? perfer.value.theme : G.THEME_DEFAULT,//主题皮肤，不选为默认皮肤
-        breadcrumb: setting.getOnOff(perfer.value.breadcrumb) ? 1 : 0,//是否展示面包屑导航
-        collapse: setting.getOnOff(perfer.value.collapse) ? 1 : 0,//是否展示左边menu菜单收缩图标
-        refresh: setting.getOnOff(perfer.value.refresh) ?  1 : 0,//是否展示头部工具栏的刷新图标
-        username: setting.getOnOff(perfer.value.username) ?  1 : 0,//是否展示头部我的用户名
-        avatar: setting.getOnOff(perfer.value.avatar) ?  1 : 0,//是否展示头部我的头像
+        theme: comm.toStr(prefer.value.theme) ? prefer.value.theme : G.THEME_DEFAULT,//主题皮肤，不选为默认皮肤
+        breadcrumb: setting.getOnOff(prefer.value.breadcrumb) ? 1 : 0,//是否展示面包屑导航
+        collapse: setting.getOnOff(prefer.value.collapse) ? 1 : 0,//是否展示左边menu菜单收缩图标
+        refresh: setting.getOnOff(prefer.value.refresh) ?  1 : 0,//是否展示头部工具栏的刷新图标
+        username: setting.getOnOff(prefer.value.username) ?  1 : 0,//是否展示头部我的用户名
+        avatar: setting.getOnOff(prefer.value.avatar) ?  1 : 0,//是否展示头部我的头像
       },
       drawer: setting.getDrawer()
     })
 
     //保存功能设置面板的数据，包括：改变主题皮肤、图标显示、导航Tabs、显示/隐藏 面包屑导航等
     const turnOnOf = (val:number,name:string) => {
-      let perfer:any = {}
-      perfer[name] = val
-      setting.setPerfer(perfer);
+      let prefer:any = {}
+      prefer[name] = val
+      setting.setPrefer(prefer);
     }
     
     return {

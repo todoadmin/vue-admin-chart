@@ -2,11 +2,11 @@
     <div class="nav-profile">
         <el-dropdown trigger="hover" @visible-change="handleDropDown" @command="commandDropDownMenu">
           <div class="nav-user-avatar">
-            <img :src="data.userInfo.avatar_url" :alt="data.userInfo.username" class="profile-avatar" v-if="data.perfer.avatar != 0">
-            <span class="nav-user-name" v-if="data.perfer.username != 0 ">
+            <img :src="data.userInfo.avatar_url" :alt="data.userInfo.username" class="profile-avatar" v-if="data.prefer.avatar != 0">
+            <span class="nav-user-name" v-if="data.prefer.username != 0 ">
               {{data.userInfo.username}}
             </span>
-            <el-icon class="icon-drop" :span="5" :offset="2" v-if="data.perfer.username != 0 "><component :is="data.dropDown ? `ArrowDownBold` :  `ArrowUpBold`" /></el-icon>
+            <el-icon class="icon-drop" :span="5" :offset="2" v-if="data.prefer.username != 0 "><component :is="data.dropDown ? `ArrowDownBold` :  `ArrowUpBold`" /></el-icon>
           </div>
           <template #dropdown>
               <el-dropdown-menu>
@@ -40,7 +40,7 @@ export default defineComponent({
         username: 'guest'
       },
       //获取偏好设置信息
-      perfer: setting.getPerfer(),
+      prefer: setting.getPrefer(),
       //获取用户名的下拉菜单的收起/展开 状态
       dropDown: setting.getDropDown(),
       //获取用户基本信息

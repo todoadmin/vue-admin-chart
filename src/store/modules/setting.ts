@@ -14,7 +14,7 @@ const settingStore = defineStore({
   state: () => ({
     token: '', // 请求token
     userInfo: '', // 用户基本信息
-    perfer: {}, // 设置偏好，包括：主题皮肤等
+    prefer: {}, // 设置偏好，包括：主题皮肤等
     collapse: false, // 左边菜单折叠
     drawer: false, // 右边抽屉工具页面
     dropDown: false, // 用户名的下拉菜单折叠
@@ -24,7 +24,7 @@ const settingStore = defineStore({
   getters: {
     getToken: (state) => state.token,
     getUserInfo: (state) => state.userInfo,
-    getPerfer: (state) => state.perfer,
+    getPrefer: (state) => state.prefer,
     getCollapse: (state) => state.collapse,
     getDrawer: (state) => state.drawer,
     getDropDown: (state) => state.dropDown,
@@ -41,8 +41,8 @@ const settingStore = defineStore({
       this.userInfo = userInfo
     },
     // 设置偏好，包括：主题皮肤等
-    setPerfer(perfer: any) {
-      this.perfer = perfer
+    setPrefer(prefer: any) {
+      this.prefer = prefer
     },
     // 保存左边menu折叠状态
     setCollapse(collapse: boolean) {
@@ -71,7 +71,7 @@ const settingStore = defineStore({
         storage: localStorage, // 可以为localStorage或者sessionStorage
         // 可以通过paths指定需要持久化的值，其他没有指定的则不会持久化
         paths: [
-          'token', 'collapse', 'userInfo', 'dropDown','defaultActive', 'drawer', 'perfer',
+          'token', 'collapse', 'userInfo', 'dropDown','defaultActive', 'drawer', 'prefer',
         ]
       }
     ]

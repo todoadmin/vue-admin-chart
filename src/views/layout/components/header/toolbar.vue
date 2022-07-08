@@ -1,6 +1,6 @@
 <template>
     <div class="nav-toolbar">
-        <el-icon class="nav-i-size icon-sty1" title="刷新" v-if="perfer.refresh != 0 " @click="refresh"><Refresh /></el-icon>
+        <el-icon class="nav-i-size icon-sty1" title="刷新" v-if="prefer.refresh != 0 " @click="refresh"><Refresh /></el-icon>
     </div>
 </template>
 
@@ -11,14 +11,14 @@ import { setting } from '@/utils'
 export default defineComponent({
   name:"ToolBar",
   setup() {
-    const perfer:any = reactive(setting.getPerfer());
+    const prefer:any = reactive(setting.getPrefer());
     //重新加载页面
     const refresh = () => {
       location.reload();
     }
 
     return {
-      perfer,
+      prefer,
       refresh,
     }
   }

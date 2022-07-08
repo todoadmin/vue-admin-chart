@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <el-container class="main-content">
-      <el-aside :width="collapse ? '60px' : '180px'" :class="setting.getTheme(perfer.theme)">
+      <el-aside :width="collapse ? '60px' : '180px'" :class="setting.getTheme(prefer.theme)">
         <CompAside />
       </el-aside>
       <el-container class="page">
@@ -36,11 +36,11 @@ export default defineComponent({
     // 获取setting store
     const collapse = setting.getCollapse()
     //获取偏好设置信息
-    const perfer:any = reactive(setting.getPerfer());
+    const prefer:any = reactive(setting.getPrefer());
     return {
       setting,
       collapse,
-      perfer
+      prefer
     }
   }
 })

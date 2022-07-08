@@ -138,25 +138,25 @@ export const getBreadcrumb = (route: any) => {
  * 设置偏好设置信息
  * @returns number
  */
-export function setPerfer(data: any) {
+export function setPrefer(data: any) {
   // 如果数据值为空，则不处理
   if (Object.keys(data).length < 1) {
     return
   }
 
-  // 获取store里的perfer数据
-  const perfer = initStore().refSettStore.perfer
+  // 获取store里的prefer数据
+  const prefer = initStore().refSettStore.prefer
   let newData:any = {}
   // 存在数据的处理
-  if (Object.keys(perfer.value).length >= 1) {
+  if (Object.keys(prefer.value).length >= 1) {
     // 合并对象
-    newData = Object.assign(perfer.value, data)
+    newData = Object.assign(prefer.value, data)
   } else {
     newData = data
   }
   if (newData) {
     // 保存数据到store中
-    initStore().settStore.setPerfer(newData)
+    initStore().settStore.setPrefer(newData)
   }
   return true
 }
@@ -165,10 +165,10 @@ export function setPerfer(data: any) {
  * 获取偏好设置信息
  * @returns number
  */
-export const getPerfer = () => {
-  const { perfer } = initStore().refSettStore
+export const getPrefer = () => {
+  const { prefer } = initStore().refSettStore
   // 如果不存在主题皮肤，则使用默认皮肤
-  return perfer
+  return prefer
 }
 
 /**

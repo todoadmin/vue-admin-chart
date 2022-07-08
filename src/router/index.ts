@@ -13,6 +13,10 @@ const router = createRouter({
 // 导航路由守卫
 router.beforeEach((to:any, from:any, next:any) => {
   try {
+    const title = to.meta && to.meta.title;
+    if (title) {
+      document.title = title;
+    }
     // 路由在白名单里面
     if (existWhite(to.path)) {
       next()
