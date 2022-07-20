@@ -10,8 +10,7 @@ const BASE = require("./base.ts")
 export const HTTP_BASE_URL = BASE.BASE_URL
 
 /** 后缀地址（可以为版本目录，如：/v1） */
-export const PREFIX_PATH = '/v1'
-export const BASE_PREFIX = HTTP_BASE_URL + PREFIX_PATH
+export const BASE_PREFIX = HTTP_BASE_URL + BASE.PREFIX_PATH
 
 /** 用户登陆提交数据接口 */
 export const LOGIN_URL = BASE_PREFIX + '/auth/login'
