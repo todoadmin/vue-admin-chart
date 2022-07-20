@@ -32,7 +32,7 @@ const getResponse = (
 //axios的请求地址，比如：http://api.xxx.com
 const MOCK_BASE_URL = conf.BASE_URL
 //api版本目录，比如：v1
-const PREFIX_PATH = '/v1'
+const PREFIX_PATH = conf.PREFIX_PATH
 const mocks = [
     getResponse(MOCK_BASE_URL + PREFIX_PATH + "/auth/login", "post", [], getJsonFile('login.json')),
     getResponse(MOCK_BASE_URL + PREFIX_PATH + "/auth/logout", "post", [], getJsonFile('comm.json')),
