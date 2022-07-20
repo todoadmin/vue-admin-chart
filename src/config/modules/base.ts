@@ -7,6 +7,8 @@ if (process.env.NODE_ENV === 'production') {
   //Dev开发环境 http restful API 请求地址
   exports.BASE_URL = 'http://localhost:8080'
 }
+/** 后缀地址（可以为版本目录，如：/v1） */
+exports.PREFIX_PATH = '/v1'
 
 //DEV host 地址
 exports.DEV_HOST = 'localhost'
